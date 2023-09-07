@@ -1,245 +1,251 @@
-make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-make: *** No rule to make target 'all'.  Stop.
-
-# GNU Make 4.3
-# Built for x86_64-pc-linux-gnu
-# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-w64-mingw32
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Aug 15 10:01:04 2022
+# Make data base, printed on Thu Sep 07 09:39:21 2023
 
 # Variables
 
-# environment
-GDK_BACKEND = x11
-# environment
-LC_ALL = C
-# environment
-NO_AT_BRIDGE = 1
-# environment
-GTK_RC_FILES = /etc/gtk/gtkrc:/home/zhang/.gtkrc:/home/zhang/.config/gtkrc
-# environment
-KONSOLE_DBUS_SERVICE = :1.1273
-# environment
-VSCODE_CWD = /home/zhang
-# environment
-WINDOWID = 56623111
-# default
-MAKE_COMMAND := make
-# makefile (from 'makefile', line 2)
-STD = -std=c++17
-# automatic
-@D = $(patsubst %/,%,$(dir $@))
-# environment
-KONSOLE_VERSION = 220403
-# environment
-VSCODE_HANDLES_UNCAUGHT_ERRORS = true
-# default
-.VARIABLES := 
-# environment
-PWD = /home/zhang/source/net/new_server
-# automatic
-%D = $(patsubst %/,%,$(dir $%))
-# environment
-MAIL = /var/spool/mail/zhang
-# environment
-KONSOLE_DBUS_WINDOW = /Windows/1
-# automatic
-^D = $(patsubst %/,%,$(dir $^))
-# automatic
-%F = $(notdir $%)
-# environment
-VSCODE_CODE_CACHE_PATH = /home/zhang/.config/Code - OSS/CachedData/6d9b74a70ca9c7733b29f0456fd8195364076dda
-# environment
-XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session1
-# environment
-LANG = C
-# environment
-XAUTHORITY = /home/zhang/.Xauthority
-# default
-.LOADED := 
-# default
-.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
-# environment
-COLORFGBG = 15;0
-# makefile
-MAKEFLAGS = pqrR
-# makefile
-CURDIR := /home/zhang/source/net/new_server
-# environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
-# automatic
-*D = $(patsubst %/,%,$(dir $*))
-# environment
-PAM_KWALLET5_LOGIN = /run/user/1000/kwallet5.socket
-# environment
-MFLAGS = -pqrR
-# default
-.SHELLFLAGS := -c
-# environment
-XDG_CONFIG_DIRS = /home/zhang/.config/kdedefaults:/etc/xdg
-# automatic
-+D = $(patsubst %/,%,$(dir $+))
-# environment
-XCURSOR_THEME = breeze_cursors
-# environment
-XDG_SESSION_DESKTOP = KDE
-# makefile (from 'makefile', line 1)
-MAKEFILE_LIST := makefile
-# automatic
-@F = $(notdir $@)
-# environment
-VSCODE_PID = 22161
-# environment
-XDG_SESSION_TYPE = x11
-# automatic
-?D = $(patsubst %/,%,$(dir $?))
-# automatic
-*F = $(notdir $*)
-# environment
-CHROME_DESKTOP = code-oss.desktop
-# environment
-DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
-# makefile (from 'makefile', line 6)
-LIB = -lpthread
-# automatic
-<D = $(patsubst %/,%,$(dir $<))
-# environment
-VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"c7fc85ff02bac0a180b4b0ef587934ff.zh-cn","_translationsConfigFile":"/home/zhang/.config/Code - OSS/clp/c7fc85ff02bac0a180b4b0ef587934ff.zh-cn/tcf.json","_cacheRoot":"/home/zhang/.config/Code - OSS/clp/c7fc85ff02bac0a180b4b0ef587934ff.zh-cn","_resolvedLanguagePackCoreLocation":"/home/zhang/.config/Code - OSS/clp/c7fc85ff02bac0a180b4b0ef587934ff.zh-cn/6d9b74a70ca9c7733b29f0456fd8195364076dda","_corruptedFile":"/home/zhang/.config/Code - OSS/clp/c7fc85ff02bac0a180b4b0ef587934ff.zh-cn/corrupted.info","_languagePackSupport":true}
-# default
-MAKE_HOST := x86_64-pc-linux-gnu
-# environment
-SDL_IM_MODULE = fcitx
-# makefile
-SHELL = /bin/sh
-# default
-MAKECMDGOALS := all
-# environment
-XMODIFIERS = @im=fcitx
-# environment
-SHLVL = 1
-# environment
-PROFILEHOME = 
-# environment
-MAKELEVEL := 0
-# default
-MAKE = $(MAKE_COMMAND)
-# environment
-PATH = /usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
-# default
-MAKEFILES := 
-# environment
-LANGUAGE = 
-# environment
-MOTD_SHOWN = pam
-# automatic
-^F = $(notdir $^)
-# environment
-INVOCATION_ID = bb40bfeaef98496ca5e4c86e5938c863
-# automatic
-?F = $(notdir $?)
-# environment
-KDE_APPLICATIONS_AS_SCOPE = 1
-# environment
-XDG_SEAT = seat0
-# environment
-GTK_IM_MODULE = fcitx
-# environment
-XDG_CURRENT_DESKTOP = KDE
-# automatic
-+F = $(notdir $+)
-# makefile (from 'makefile', line 5)
-OTHERS_TARGET = ./base/net.o ./base/http.o
-# environment
-XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
-# environment
-DESKTOP_SESSION = plasma
-# environment
-ORIGINAL_XDG_CURRENT_DESKTOP = KDE
 # 'override' directive
 GNUMAKEFLAGS := 
 # environment
-QT_SCREEN_SCALE_FACTORS = eDP-1=1;HDMI-1-1=1;DP-1-1=1;DP-1-2=1;
+POWERSHELL_DISTRIBUTION_CHANNEL = MSI:Windows 10 Home China
+# automatic
+?F = $(notdir $?)
 # environment
-LOGNAME = zhang
+QTMSBUILD = C:\Users\computer\AppData\Local\QtMsBuild
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+CUDA_PATH_V11_6 = D:\NVIDIA\CUDAToolKits\Development
+# environment
+WSLENV = WT_SESSION::WT_PROFILE_ID
+# default
+.SHELLFLAGS := -c
+# environment
+VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
+# makefile
+MAKEFLAGS = pqrR
+# makefile (from 'makefile', line 4)
+TARGET = server
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile
+CURDIR := e:/Reops/source/archSources/source/net/new_server
+# default
+SHELL := D:/git/Git/bin/sh.exe
+# environment
+WINDIR = C:\Windows
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","osLocale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"8adcb24c1d6a3b6be1b89d557f07d07b.zh-cn","_translationsConfigFile":"C:\\Users\\computer\\AppData\\Roaming\\Code\\clp\\8adcb24c1d6a3b6be1b89d557f07d07b.zh-cn\\tcf.json","_cacheRoot":"C:\\Users\\computer\\AppData\\Roaming\\Code\\clp\\8adcb24c1d6a3b6be1b89d557f07d07b.zh-cn","_resolvedLanguagePackCoreLocation":"C:\\Users\\computer\\AppData\\Roaming\\Code\\clp\\8adcb24c1d6a3b6be1b89d557f07d07b.zh-cn\\6c3e3dba23e8fadc360aed75ce363ba185c49794","_corruptedFile":"C:\\Users\\computer\\AppData\\Roaming\\Code\\clp\\8adcb24c1d6a3b6be1b89d557f07d07b.zh-cn\\corrupted.info","_languagePackSupport":true}
+# environment
+PYCHARM COMMUNITY EDITION = D:\edtion\pycharm\PyCharm\bin;
+# environment
+NVM_HOME = D:\language\nvm
+# environment
+MSMPI_BIN = C:\Program Files\Microsoft MPI\Bin\
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile (from 'makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# environment
+TMP = C:\Users\computer\AppData\Local\Temp
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+NVM_SYMLINK = D:\language\nodejs
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_CWD = E:\Reops\source\archSources\source\net\new_server
+# default
+MAKE_HOST := x86_64-w64-mingw32
+# environment
+PATH = C:\Program Files\Microsoft MPI\Bin\;C:\Program Files\Common Files\Oracle\Java\javapath;D:\NVIDIA\CUDAToolKits\Development\bin;D:\NVIDIA\CUDAToolKits\Development\libnvvp;D:\vmware\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\git\Git\cmd;C:\Program Files\dotnet\;D:\wechat\wechatdevtool\dll;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\tencent\wechattools\΢��web�����߹���\dll;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.1.1\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\daily\calibre\;D:\tools\΢��web�����߹���\dll;D:\tools\pandoc\;D:\language\nvm;D:\language\nodejs;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\language\matlab\matlab2021a\runtime\win64;D:\language\matlab\matlab2021a\bin;D:\language\matlab\matlab2021a\polyspace\bin;D:\git\Git LFS;C:\Program Files\PowerShell\7\;E:\editor\Arduino IDE;D:\git\Git\bin;D:\edtion\ffmpeg\bin;D:\edtion\vim\vim90;D:\edtion\vscode\vscode\bin;D:\tools\cmake\bin;D:\language\jdk17\bin;D:\python;D:\tools\gcckits\gcc11\bin;D:\language\latex\texlive\2022\bin\win32;D:\edtion\androidstudio\sdk\platform-tools;D:\tools\gcckits\mingw64\mingw64\bin\;D:\config\nodejs\global\
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+GIT_LFS_PATH = D:\git\Git LFS
+# environment
+LC_ALL = C
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# environment
+ONEDRIVE = C:\Users\computer\OneDrive
+# environment
+USERPROFILE = C:\Users\computer
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+NUMBER_OF_PROCESSORS = 16
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from 'makefile', line 6)
+LIB = -lpthread
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync
+# environment
+NVTOOLSEXT_PATH = C:\Program Files\NVIDIA Corporation\NvToolsExt\
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\LOCAL\crashpad_18088_KKSCTJEJHJWQXFQG
 # makefile (from 'makefile', line 3)
 OPT = -g
 # environment
-XDG_VTNR = 1
-# makefile
-.DEFAULT_GOAL := default
+COMPUTERNAME = DESKTOP
 # environment
-SYSTEMD_EXEC_PID = 736
-# environment
-DISPLAY = :0
-# environment
-GTK_MODULES = canberra-gtk-module
-# environment
-USER = zhang
+PROGRAMFILES = C:\Program Files
 # default
-MAKE_VERSION := 4.3
+.LOADED := 
 # environment
-KDE_SESSION_UID = 1000
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
 # environment
-KONSOLE_DBUS_SESSION = /Sessions/1
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
-MANAGERPID = 655
+WT_SESSION = a3aa5866-967a-4a55-ade1-8cae0246e08b
 # environment
-_ = /usr/bin/make
+USERNAME = computer
 # environment
-XDG_RUNTIME_DIR = /run/user/1000
-# environment
-COLORTERM = truecolor
-# environment
-JOURNAL_STREAM = 8:29202
-# environment
-XDG_SESSION_CLASS = user
+PUBLIC = C:\Users\Public
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
-GTK2_RC_FILES = /etc/gtk-2.0/gtkrc:/home/zhang/.gtkrc-2.0:/home/zhang/.config/gtkrc-2.0
-# environment
-HOME = /home/zhang
-# environment
-QT_IM_MODULE = fcitx
-# environment
-ELECTRON_RUN_AS_NODE = 1
-# environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-bf7958e4-1.70.1-main.sock
-# environment
-TERM = xterm-256color
-# environment
-XDG_SESSION_ID = 2
-# environment
-XCURSOR_SIZE = 24
-# default
-.RECIPEPREFIX := 
-# automatic
-<F = $(notdir $<)
-# default
-SUFFIXES := 
-# makefile (from 'makefile', line 4)
-TARGET = server
-# environment
-QT_AUTO_SCREEN_SCALE_FACTOR = 0
-# environment
 VSCODE_CLI = 1
 # environment
-ELECTRON_NO_ATTACH_CONSOLE = 1
+VSCODE_CODE_CACHE_PATH = C:\Users\computer\AppData\Roaming\Code\CachedData\6c3e3dba23e8fadc360aed75ce363ba185c49794
 # environment
-SHELL_SESSION_ID = 27a7ef48724a4fda9418d068ea933b64
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
-KDE_SESSION_VERSION = 5
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# environment
+LOGONSERVER = \\DESKTOP
+# environment
+ONEDRIVECONSUMER = C:\Users\computer\OneDrive
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = DESKTOP
+# environment
+MSMPI_BENCHMARKS = C:\Program Files\Microsoft MPI\Benchmarks\
+# environment
+GRADLE_USER_HOME = D:\language\frame\gradle
+# environment
+MAKELEVEL := 0
+# environment
+INTELLIJ IDEA COMMUNITY EDITION = D:\edtion\idea\IDEA\bin;
 # default
-.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+NODE_HOME = D:\config\nodejs\modules
 # makefile (from 'makefile', line 1)
 CC = g++
+# default
+MAKE_VERSION := 4.2.1
+# makefile
+.DEFAULT_GOAL := default
 # environment
-KDE_FULL_SESSION = true
+INCLUDE = D:\vs\vs2022\VC\Tools\MSVC\14.35.32215\include;D:\Windows Kits\10\Include\10.0.19041.0\um;D:\Windows Kits\10\Include\10.0.19041.0\ucrt;D:\Windows Kits\10\Include\10.0.19041.0\shared;D:\Windows Kits\10\Include\10.0.19041.0\winrt;D:\Windows Kits\10\Include\10.0.19041.0\cppwinrt\winrt;D:\vs\OtherLibs\tbb\include;
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+LOCALAPPDATA = C:\Users\computer\AppData\Local
+# environment
+PSMODULEPATH = %ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# makefile (from 'makefile', line 2)
+STD = -std=c++17
+# environment
+AMDRMSDKPATH = C:\Program Files\AMD\RyzenMasterSDK\
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\d5408c4cd8f54f97f58daf549ac2c454-1.81.1-main-sock
+# environment
+HOMEPATH = \Users\computer
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+SYSTEMROOT = C:\Windows
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# environment
+VSCODE_L10N_BUNDLE_LOCATION = file:///c%3A/Users/computer/.vscode/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.81.2023081609/translations/extensions/vscode.markdown-language-features.i18n.json
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\computer\AppData\Roaming
+# environment
+TEMP = C:\Users\computer\AppData\Local\Temp
+# environment
+WT_PROFILE_ID = {0caa0dad-35be-5f56-a8ff-afceeeaa6101}
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# environment
+ANDROID_ADV_HOME = D:\edtion\andriod studio\cache
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# automatic
+^F = $(notdir $^)
+# environment
+CUDA_PATH = D:\NVIDIA\CUDAToolKits\Development
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+PROCESSOR_REVISION = 6001
+# environment
+TORCH_HOME = D:\config\pytorch
+# makefile (from 'makefile', line 5)
+OTHERS_TARGET = ./base/net.o ./base/http.o
+# default
+.RECIPEPREFIX := 
+# environment
+X_VCPKG_ASSET_SOURCES = x-azurl,http://106.15.181.5/
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 23
+# environment
+VSCODE_PID = 18088
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP
 # variable set hash-table stats:
-# Load=113/1024=11%, Rehash=0, Collisions=8/149=5%
+# Load=117/1024=11%, Rehash=0, Collisions=20/144=14%
 
 # Pattern-specific Variable Values
 
@@ -247,9 +253,9 @@ KDE_FULL_SESSION = true
 
 # Directories
 
-# . (device 66312, inode 2102965): 11 files, no impossibilities.
+# . (key e:/Reops/source/archSources/source/net/new_server, mtime 1694050740): 13 files, no impossibilities.
 
-# 11 files, no impossibilities in 1 directories.
+# 13 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -258,7 +264,15 @@ KDE_FULL_SESSION = true
 	$(CC) $(STD) $(OPT) -c $*.cpp -o $*.o
 
 # 1 implicit rules, 0 (0.0%) terminal.
+
 # Files
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
 
 server.o: server.cpp
 #  Implicit rule search has not been done.
@@ -267,13 +281,27 @@ server.o: server.cpp
 #  recipe to execute (from 'makefile', line 17):
 	$(CC) $(STD) $(OPT) -c $(TARGET).cpp -o $(TARGET).o
 
+server: server.o base/net.o base/http.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 14):
+	$(CC) $(STD) $(OPT) $(TARGET).o $(OTHERS_TARGET) -o $(TARGET) $(LIB)
+
 # Not a target:
-base/http.o:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-02 16:35:07
+#  File has been updated.
+#  Successfully updated.
+
+default: server
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
-default: server
+# Not a target:
+.DEFAULT:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -292,36 +320,14 @@ clean:
 	rm ./base/*.o
 	rm *.o
 
-server: server.o base/net.o base/http.o
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from 'makefile', line 14):
-	$(CC) $(STD) $(OPT) $(TARGET).o $(OTHERS_TARGET) -o $(TARGET) $(LIB)
-
-# Not a target:
-.DEFAULT:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-all:
-#  Command line target.
-#  Implicit rule search has been done.
-#  File does not exist.
-#  File has not been updated.
-
-# Not a target:
-makefile:
-#  Implicit rule search has been done.
- 
-#  Last modified 2022-08-02 16:35:07.161370752
-#  File has been updated.
-#  Successfully updated.
-
 # Not a target:
 server.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+base/http.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -334,12 +340,14 @@ server.cpp:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 23 / storage = 176 B / avg = 7 B
-# current buf: size = 8162 B / used = 176 B / count = 23 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 23 / storage = 159 B / avg = 6 B
+# current buf: size = 8162 B / used = 159 B / count = 23 / avg = 6 B
 
-# strcache performance: lookups = 36 / hit rate = 36%
+# strcache performance: lookups = 35 / hit rate = 34%
 # hash-table stats:
-# Load=23/8192=0%, Rehash=0, Collisions=0/36=0%
-# Finished Make data base on Mon Aug 15 10:01:04 2022
+# Load=23/8192=0%, Rehash=0, Collisions=1/35=3%
+# Finished Make data base on Thu Sep 07 09:39:21 2023
 
  
+make.exe: *** No rule to make target 'all'.  Stop.
+
