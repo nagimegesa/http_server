@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File List</title>
+    <style>
+    a {
+        text-decoration: none;
+        color: skyblue;
+    }
+
+    div > * {
+        text-align: center;
+        color: skyblue;
+    }
+
+    tr {
+        margin-top: 40px;
+    }
+
+    td {
+        width: 300px;
+    }
+    </style>
+    <script>
+        window.onload = function() {
+            console.log(document.body.clientWidth)
+            var width = 400;
+            if(document.body.clientWidth < width)
+                width = document.body.clientWidth;
+            document.getElementById("main_div").style.width = width + "px";
+        }
+    </script>
+</head>
+<body>
+    <div id="main_div">
+        <h3>FILE LIST</h3>
+        <table>
+            <thead>
+                <td>文件名</td>
+                <td>类型</td>
+            </thead>
+            <tbody>

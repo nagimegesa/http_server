@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "shortcut icon" href = "#"/>
+    <title>一行字</title>
+
+    <script type="text/javascript" src="./main.js"></script>
+    <link href="./index.css" rel="stylesheet" type="text/css"/>
+
+</head>
+<body>
+    <div class = "title">welcome</div>
+    <div class = screen>
+        <div id = "process_div"></div>
+        <button class = "top_button" type="button" onclick="upload_input.click()">    
+            <div id = "upload_text">上传</div>
+            <input style="display: none;" type="file" id="upload_input">
+        </button>
+        <button class = "bottom_button" type="button" onclick="down_load_link.click()">
+            下载
+            <a style="display: none;" href="./resource/" id="down_load_link"></a>
+        </button>
+    </div>
+</body>
+</html>

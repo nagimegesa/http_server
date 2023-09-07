@@ -1,0 +1,9 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/zhang/source/net/new_server'
+g++ -std=c++17 -g -c server.cpp -o server.o
+ 
+g++ -std=c++17 -g -c base/net.cpp -o base/net.o
+g++ -std=c++17 -g -c base/http.cpp -o base/http.o
+g++ -std=c++17 -g server.o ./base/net.o ./base/http.o -o server -lpthread
+make: Leaving directory '/home/zhang/source/net/new_server'
+ 
